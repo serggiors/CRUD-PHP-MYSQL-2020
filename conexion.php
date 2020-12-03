@@ -1,6 +1,6 @@
 <?php
 	
-	$mysqli = new mysqli('localhost', 'UsuarioBase', 'PasswordBase', 'personal');
+	$mysqli = new mysqli('BasedeDatos', 'BasedeDatos', 'BasedeDatos', 'BasedeDatos');
 	
 	if($mysqli->connect_error){
 		
